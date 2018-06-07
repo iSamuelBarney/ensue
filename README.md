@@ -9,9 +9,9 @@
 
 ##### Goals
 1. Desktop: The Page/contents of the page should scale proportionately BETWEEN the following resolutions without breaking the layout.
-    ** Minimum : iPad resolution (1024 x 768 effective px - Portrait + Landscape)
-    ** Native: 1080p (native)
-    ** Maximum: 4K resolution (3840 x 2160px)
+    - Minimum : iPad resolution (1024 x 768 effective px - Portrait + Landscape)
+    - Native: 1080p (native)
+    - Maximum: 4K resolution (3840 x 2160px)
 
 2. Mobile : No composition provided intentionally. Use your best judgement to convert and style this page to mobile. Should be compatible with iPhone 6/7/8/+/X.
 
@@ -22,7 +22,7 @@
 5. Less/SASS preferred over Vanilla CSS.
 
 6. Should be consistent on the following browsers:
-    ** Chrome, Chromium, Firefox, Safari, Mobile Safari(iPad), Internet Explorer v11.x, Microsoft Edge v42.x
+    - Chrome, Chromium, Firefox, Safari, Mobile Safari(iPad), Internet Explorer v11.x, Microsoft Edge v42.x
 
 7. Should be delivered to us in a publicly accessible deployed URL + Source code via a hosted repository link. Do not email zip files/folders.
 
