@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.0217vw;
+  background-color: #44254E;
+  color: #424242;
+}
+.page-header {
+  color: white;
+  font-weight: 500;
+  padding: 0.797vw 0.797vw 0 1.0797vw;
+  font-size: 117%;
+}
+.sections-contain {
+  padding: 0 0 4px 4px;
+}
+.sections-contain .section-card {
+  flex: 1;
+  padding: 4px 4px 0 0;
+}
+.sections-contain .section-card .section-header {
+  z-index: 99;
+  color: white;
+  background-color: #62326E;
+  padding: 1.17vw 0.797vw;
+  font-weight: 500;
+}
+.sections-contain .section-card .section-header .section-pagination {
+  letter-spacing: 0.1519vw;
+}
+.sections-contain .section-card .section-header .section-title.has-double .double-title div:first-child:after {
+  content: '';
+  display: block;
+  width: 3.27vw;
+  height: 0.14217vw;
+  margin: 0.77vw 0;
+  background-color: white;
+}
+.sections-contain .section-card .section-body {
+  overflow: hidden;
+  background-color: #F4F5FA;
+}
+.sections-contain .section-card .section-body .body-row {
+  padding: 0 0 0 0.397vw;
+  background-color: white;
+  min-height: 47px;
+  overflow: hidden;
+  max-height: 47px;
+  border-bottom: 1px solid #D2D2D2;
+}
+.sections-contain .section-card .section-body .body-row .body-column {
+  min-height: 47px;
+  max-height: 47px;
+  padding: 0 0.397vw;
+  position: relative;
+}
+.sections-contain .section-card .section-body .body-row .body-column.isbob {
+  overflow: hidden;
+  min-width: 87px !important;
+  text-align: right;
+  padding: 0;
+}
+.sections-contain .section-card .section-body .body-row .body-column.isbob .has-bob {
+  position: relative;
+}
+.sections-contain .section-card .section-body .body-row .body-column.isbob .has-bob:before {
+  content: "\A";
+  background-color: white;
+  height: 47px;
+  width: 47px;
+  position: absolute;
+  transform: rotate(45deg);
+  left: -24px;
+  top: -15px;
+  -webkit-box-shadow: 0 0 1px 1px #D2D2D2;
+  -moz-box-shadow: 0 0 1px 1px #D2D2D2;
+  box-shadow: 0 0 1px 1px #D2D2D2;
+}
+.sections-contain .section-card .section-body .body-row.deuce {
+  min-height: 57px;
+  max-height: 77px;
+}
+.sections-contain .section-card .section-body .body-row.deuce .body-column {
+  min-height: 8.7vh;
+  max-height: 10.7vh;
+}
+.sections-contain .section-card .section-body .body-row-empty {
+  background-color: #F4F5FA;
+}
